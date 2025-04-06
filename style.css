@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .weather-container {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    -webkit-backdrop-filter: blur(8px); /* Use with caution for Safari */
+    backdrop-filter: blur(8px);
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  .search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .search-box button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .search-box button:hover {
+    background: #e0e0e0;
+  }
+  
+  .weather-result {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #f1f1f1;
+  }
+  
+  .weather-result h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  
+  .weather-result p {
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
